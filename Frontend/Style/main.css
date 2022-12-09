@@ -1,0 +1,245 @@
+.navbar-brand {
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: #cd00cd !important;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: #cd00cd !important;
+}
+/* Hero section */
+.hero-section h1 {
+    position: absolute;
+    width: 605px;
+    height: 212px;
+    left: 100px;
+    top: 175px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 42px;
+}
+.hero-section p {
+    position: absolute;
+    width: 605px;
+    height: 84px;
+    left: 100px;
+    top: 340px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.hero-section img {
+    width: 1102px;
+    height: 400px;
+
+}
+/* Tutup Hero section */
+
+
+/* Popular Products */
+.popular-products:hover .F1-img {
+    transform: scale(1.1);
+}
+.popular-products {
+    padding-top: 50px;
+
+}
+.component-products {
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+
+.F1-img {
+    transition: all 0.3s ease;
+}
+
+
+.products-text {
+    margin-top: 50px;
+    position: absolute;
+    width: 271px;
+    height: 42px;
+    left: 50px;
+    top: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.products-price {
+    margin-top: 50px;
+}
+/* Tutup Popular Products */
+
+/* Booking Online */
+.B1:hover .B1-img   {
+    transform: scale(1.1);
+}
+.B1-img {
+    padding-top: 20px;
+    padding-left: 25%;
+}
+.B1-text h1 {
+    position: absolute;
+    width: 877px;
+    height: 35.41px;
+    left: 180px;
+    top: 450px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px
+}
+
+.B1-text p {
+    position: absolute;
+    width: 1300px;
+    height: 35px;
+    left: 90px;
+    top: 500px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 25px;
+    color: #000000;
+}
+.Button-cta img {
+    margin-top: 200px;
+    margin-left: 550px;
+    width: 200px;
+}
+.b1-btn {
+    border-radius: 18px 18px 18px 18px;
+    margin-top: 200px;
+    margin-left: 550px;
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    transition: 0.3s ease;
+}
+.b1-btn:hover {
+    box-shadow: 0px 8px 15px #b0b0b0;
+    border-radius: 4px;
+
+    transform: scale(1.1);
+}
+/* Tutup Booking Online */
+
+/* Testimonial */
+.testimonial {
+    padding-top: 400px;
+    padding-bottom: 22px;
+}
+.testimonial-img {
+    z-index: 1;
+    position: absolute;
+    margin: 30px 0px 0px 30px;
+}
+.testimonial-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+.testimonial-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #b0b0b0;
+}
+
+.btn-testimonial {
+    background-color: #cd00cd;
+    width: 150px;
+    height: 30px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+   transition: 0.3s ease;
+}
+
+.btn-testimonial:hover {
+    box-shadow: 0px 8px 15px #b0b0b0;
+    border-radius: 4px;
+
+    transform: scale(1.1);
+}
+
+/* Tutup Testimonial */
+/* footer */
+.footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f5f4f5;
+
+}
+.footer h2 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+   
+}
+.footer h5 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #cd00cd;
+   
+}
+
+.footer p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 18px;
+}
+.footer-small {
+  
+    background-color: #f9a9a9;
+    text-align: center;
+
+}
+.footer-small p {
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #f1f9;
+}
+
+.footer-small a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Tutup footer */
